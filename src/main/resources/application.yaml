@@ -1,0 +1,11 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    generate-ddl: true
+  datasource:
+    name: TeamFinder
+    driver-class-name: org.postgresql.Driver
+    username: postgres
+    password: postgre
+    url: jdbc:postgresql://localhost:5432/TeamFinder
