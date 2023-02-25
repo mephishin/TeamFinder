@@ -11,6 +11,7 @@ import java.util.Date;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor(access = AccessLevel.PUBLIC, force = true)
+@RequiredArgsConstructor
 @Table(name="Projects")
 public class Ad {
 

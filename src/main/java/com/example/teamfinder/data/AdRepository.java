@@ -6,4 +6,5 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public interface AdRepository extends CrudRepository<Ad, Long> {
+    Iterable<Ad> findAdsByName(String name);
 }
